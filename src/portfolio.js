@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Tuan Vu",
+  title: "Hi all, I'm Tuan Vu",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Một nhân viên IT Helpdesk & IT Support tận tâm 💻, có kinh nghiệm hỗ trợ người dùng, xử lý sự cố kỹ thuật, quản lý hệ thống văn phòng và đảm bảo hoạt động CNTT diễn ra ổn định. Thành thạo trong việc chẩn đoán lỗi phần cứng/phần mềm, cấu hình hệ điều hành Windows, quản lý mạng nội bộ, thiết bị văn phòng và hỗ trợ kỹ thuật nhanh chóng – chính xác."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/vusummer",
+  linkedin: "https://www.linkedin.com/in/tuanvu1703/",
+  gmail: "vunguyen7980@gmail.com",
+  //gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/tuanvu1703na",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,76 +48,64 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "DEDICATED IT HELPDESK & SUPPORT SPECIALIST",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Hỗ trợ người dùng và xử lý sự cố phần cứng / phần mềm nhanh chóng"),
+    emoji("⚡ Quản lý và cấu hình hệ thống Windows, mạng nội bộ, router và switch"),
+    emoji("⚡ Thiết lập, vận hành và khắc phục lỗi máy in, camera, thiết bị văn phòng"),
+    emoji("⚡ Quản lý tài khoản, phân quyền, và hỗ trợ Active Directory / Microsoft 365"),
+    emoji("⚡ Giám sát hệ thống, kiểm tra kết nối mạng và tối ưu hiệu suất làm việc"),
+    emoji("⚡ Cài đặt, backup dữ liệu, và bảo trì thiết bị đảm bảo hoạt động ổn định")
   ],
 
+
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Windows",
+      fontAwesomeClassname: "fab fa-windows"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Networking",
+      fontAwesomeClassname: "fas fa-network-wired"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Active Directory",
+      fontAwesomeClassname: "fas fa-users-cog"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Microsoft 365",
+      fontAwesomeClassname: "fas fa-envelope-open-text"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Hardware Troubleshooting",
+      fontAwesomeClassname: "fas fa-tools"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "PowerShell / CLI",
+      fontAwesomeClassname: "fas fa-terminal"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "VMware / Hyper-V",
+      fontAwesomeClassname: "fas fa-server"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Customer Support",
+      fontAwesomeClassname: "fas fa-headset"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
@@ -126,23 +114,18 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Hướng Nghiệp Á Âu",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Đào tạo nghề & Kỹ năng chuyên môn",
+      duration: "Tháng 6/2025 - Tháng 11/2025",
+      desc: "Hoàn thành chương trình đào tạo với kiến thức thực hành về hệ thống, mạng và thiết bị văn phòng.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Học và thực hành kỹ năng IT cơ bản và IT Helpdesk",
+        "Xử lý sự cố mạng, máy tính, máy in và camera",
+        "Cấu hình hệ thống Windows, phần mềm văn phòng và thiết bị",
+        "Hoàn thành các khóa học về TCP/IP, DHCP, DNS, VLAN",
+        "Thực hành xử lý lỗi, giám sát hệ thống và hỗ trợ kỹ thuật"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -150,28 +133,36 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Hỗ trợ kỹ thuật & Helpdesk",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
+      Stack: "Quản trị hệ thống & Windows",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Mạng máy tính (TCP/IP, DHCP, VLAN)",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Phần cứng & Thiết bị văn phòng",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Bảo trì & Giám sát hệ thống",
       progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -226,20 +217,9 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -292,7 +272,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -300,7 +280,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +304,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +323,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +336,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,16 +351,16 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "THẢO LUẬN VỀ MỘT DỰ ÁN HAY CHỈ MUỐN CHÀO? HỘP THƯ CỦA TÔI ĐANG MỞ CHO TẤT CẢ.",
+  number: "0941260607",
+  email_address: "vunguyen7980@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
