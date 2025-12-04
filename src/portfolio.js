@@ -115,7 +115,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Hướng Nghiệp Á Âu",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/icon-gioi-thieu.png"),
       subHeader: "Đào tạo nghề & Kỹ năng chuyên môn",
       duration: "Tháng 6/2025 - Tháng 11/2025",
       desc: "Hoàn thành chương trình đào tạo với kiến thức thực hành về hệ thống, mạng và thiết bị văn phòng.",
