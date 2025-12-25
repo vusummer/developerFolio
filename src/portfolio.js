@@ -26,7 +26,7 @@ const greeting = {
     "Một nhân viên IT Helpdesk & IT Support tận tâm 💻, có kinh nghiệm hỗ trợ người dùng, xử lý sự cố kỹ thuật, quản lý hệ thống văn phòng và đảm bảo hoạt động CNTT diễn ra ổn định. Thành thạo trong việc chẩn đoán lỗi phần cứng/phần mềm, cấu hình hệ điều hành Windows, quản lý mạng nội bộ, thiết bị văn phòng và hỗ trợ kỹ thuật nhanh chóng – chính xác."
   ),
   resumeLink:
-    "", // Set to empty to hide the button
+    "https://drive.google.com/drive/folders/1Q8DKoWKf4-NpBT0hg524WV9u7cXg1P-N?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
