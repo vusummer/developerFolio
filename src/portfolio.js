@@ -23,7 +23,7 @@ const greeting = {
   username: "Tuan Vu",
   title: "Hi all, I'm Tuan Vu",
   subTitle: emoji(
-    "Một nhân viên IT Helpdesk & IT Support tận tâm 💻, có kinh nghiệm hỗ trợ người dùng, xử lý sự cố kỹ thuật, quản lý hệ thống văn phòng và đảm bảo hoạt động CNTT diễn ra ổn định. Thành thạo trong việc chẩn đoán lỗi phần cứng/phần mềm, cấu hình hệ điều hành Windows, quản lý mạng nội bộ, thiết bị văn phòng và hỗ trợ kỹ thuật nhanh chóng – chính xác."
+    "Một nhân viên IT Helpdesk tận tâm 💻, có kinh nghiệm hỗ trợ người dùng, xử lý sự cố kỹ thuật, quản lý hệ thống văn phòng và đảm bảo hoạt động CNTT diễn ra ổn định. Thành thạo trong việc chẩn đoán lỗi phần cứng/phần mềm, cấu hình hệ điều hành Windows, quản lý mạng nội bộ, thiết bị văn phòng và hỗ trợ kỹ thuật nhanh chóng – chính xác."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1zSsv0moEhvxJrnxiYwVz6HgpfiO7QTxH/view?usp=drive_link", // Set to empty to hide the button
@@ -145,7 +145,7 @@ const techStack = {
     },
     {
       Stack: "Mạng máy tính (TCP/IP, DHCP, VLAN)",
-      progressPercentage: "75%"
+      progressPercentage: "55%"
     },
     {
       Stack: "Phần cứng & Thiết bị văn phòng",
@@ -153,7 +153,7 @@ const techStack = {
     },
     {
       Stack: "Bảo trì & Giám sát hệ thống",
-      progressPercentage: "70%"
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false
@@ -232,55 +232,46 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Vibe Coding Certifications ",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Implementing a standard enterprise website",
+      image: require("./assets/images/rikeiedu.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1MwORf55RuBgHvmmbIi0XTuSys77dalX8/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Gemini Certificate",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Generative AI for Educators.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://edu.exceedlms.com/student/award/iqeCiDKcTuHbY8RW6irXtWFj"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Red Team Leaders Certificate",
+      subtitle:
+        "Certified Cyber Executive Protection Professional",
+      image: require("./assets/images/ccep.webp"),
+      imageAlt: "Red Team Leaders",
       footerLink: [
-        { name: "Certification", url: "" },
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://courses.redteamleaders.com/exam-completion/ab70bcaa661ccf6d"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
